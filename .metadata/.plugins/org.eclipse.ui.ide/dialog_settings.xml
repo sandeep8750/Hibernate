@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Java\Hibernate\HB-40-HibernateCollectionMapping"/>
+			<item value="D:\Java\Hibernate\HB36-PaginationApp"/>
+			<item value="D:\Java\Hibernate\HB35-HibernateHQLPagination"/>
+			<item value="D:\Java\Hibernate\MVCCrudApp"/>
+			<item value="D:\Java\Hibernate\JSP_MVC_CRUD_COMPLETE_APP"/>
+			<item value="D:\Java\Hibernate\HB-30-CriterianAPI"/>
+			<item value="D:\Java\Hibernate\HB-29-StoredProcedureApp"/>
+			<item value="D:\Java\Hibernate\SERVLET_COMPLETE_PROJECT_APP"/>
+			<item value="D:\Java\Hibernate\HB-27-HQLInsertQuery"/>
+			<item value="D:\Java\Hibernate\HB-23-HibernateOptimisticLocking"/>
+			<item value="D:\Java\Hibernate\HB-24-HibernatePesimiticLocking"/>
+			<item value="D:\Java\Hibernate\HB-21-InteractionwithMulitpleDB"/>
+			<item value="D:\Java\Hibernate\HB-18-HibernateCaching-L2"/>
+			<item value="D:\Java\Hibernate\HB16-HibernateTimeStampingApp"/>
+			<item value="D:\Java\Hibernate\JDBC_COMPLETE_PROJECT"/>
+			<item value="D:\Java\Hibernate\HB01-SaveApp"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

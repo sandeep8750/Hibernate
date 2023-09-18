@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.ineuron.test.SaveorUpdate&apos; to &apos;insertApp&apos;&#x0D;&#x0A;- Original project: &apos;HB19-MergeOperationApp&apos;&#x0D;&#x0A;- Original element: &apos;in.ineuron.test.SaveorUpdate&apos;&#x0D;&#x0A;- Renamed element: &apos;in.ineuron.test.insertApp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SaveorUpdate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.ineuron.test{SaveorUpdate.java[SaveorUpdate" matchStrategy="1" name="insertApp" qualified="false" references="true" similarDeclarations="false" stamp="1693414009738" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;HB-21-InteractionwithMulitpleDB&apos; to &apos;HB21-InteractionwithMulitpleDB&apos;&#x0D;&#x0A;- Original element: &apos;HB-21-InteractionwithMulitpleDB&apos;&#x0D;&#x0A;- Renamed element: &apos;HB-21-InteractionwithMulitpleDB&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;HB-21-InteractionwithMulitpleDB&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=HB-21-InteractionwithMulitpleDB" name="HB21-InteractionwithMulitpleDB" references="true" stamp="1693549801704" version="1.0"/>
+</session>

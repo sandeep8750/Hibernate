@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=HB12-Hibernate-CustomID_Genrator/D:\/Software\/Jars\/hibernate-release-5.6.0.Final\/lib\/required\/hibernate-core-5.6.0.Final.jar&lt;org.hibernate.tuple(IdentifierAttribute.class[IdentifierAttribute" modifiers="1537" timestamp="1692507845699"/>
+    <typeInfo handle="=HB12-Hibernate-CustomID_Genrator/D:\/Software\/Jars\/hibernate-release-5.6.0.Final\/lib\/required\/hibernate-core-5.6.0.Final.jar&lt;org.hibernate.id(IdentifierGenerator.class[IdentifierGenerator" modifiers="1537" timestamp="1692507845699"/>
+    <typeInfo handle="=HB23-Hibernate-Lob-Operation/C:\/Users\/sande\/OneDrive\/Desktop\/eclipse-jee-2022-12-R-win32-x86_64\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1682329006623"/>
+    <typeInfo handle="=Employee/C:\/Users\/sande\/OneDrive\/Desktop\/eclipse-jee-2022-12-R-win32-x86_64\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\/jre\/lib\/jrt-fs.jar`java.naming=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;javax.naming(InsufficientResourcesException.class[InsufficientResourcesException" modifiers="33" timestamp="1682329006623"/>
+    <typeInfo handle="=HB16-HibernateTimeStampingApp/src&lt;in.ineuron.model{BankAccount.java[BankAccount" modifiers="1" timestamp="1693219191314"/>
+</typeInfoHistroy>

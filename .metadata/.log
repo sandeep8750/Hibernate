@@ -1,0 +1,269 @@
+!SESSION 2023-09-18 11:33:35.688 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\Java\Hibernate\.metadata\.bak_0.log
+Created Time: 2023-09-18 11:58:51.325
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-18 11:58:51.325
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.IPath.toOSString()" because the return value of "org.eclipse.core.resources.IProject.getLocation()" is null
+	at org.eclipse.lsp4mp.jdt.core.utils.JDTMicroProfileUtils.getProjectURI(JDTMicroProfileUtils.java:62)
+	at org.eclipse.lsp4mp.jdt.core.utils.JDTMicroProfileUtils.getProjectURI(JDTMicroProfileUtils.java:52)
+	at org.eclipse.lsp4mp.jdt.internal.core.MicroProfilePropertiesListenerManager$MicroProfileListener.processDelta(MicroProfilePropertiesListenerManager.java:106)
+	at org.eclipse.lsp4mp.jdt.internal.core.MicroProfilePropertiesListenerManager$MicroProfileListener.processDeltaChildren(MicroProfilePropertiesListenerManager.java:86)
+	at org.eclipse.lsp4mp.jdt.internal.core.MicroProfilePropertiesListenerManager$MicroProfileListener.processDelta(MicroProfilePropertiesListenerManager.java:96)
+	at org.eclipse.lsp4mp.jdt.internal.core.MicroProfilePropertiesListenerManager$MicroProfileListener.elementChanged(MicroProfilePropertiesListenerManager.java:77)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:584)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-09-18 11:58:52.023
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.023
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.024
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\byte-buddy-1.11.20.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\classmate-1.5.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\FastInfoset-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\hibernate-commons-annotations-5.1.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\hibernate-core-5.6.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\istack-commons-runtime-3.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jandex-2.2.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\javax.activation-api-1.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\javax.persistence-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jaxb-api-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.025
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jaxb-runtime-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jboss-logging-3.4.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jboss-transaction-api_1.2_spec-1.1.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\mysql-connector-j-8.0.32.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\stax-ex-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\taglibs-standard-impl-1.2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\taglibs-standard-spec-1.2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:52.026
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\txw2-2.3.1.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\byte-buddy-1.11.20.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\classmate-1.5.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\FastInfoset-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\hibernate-commons-annotations-5.1.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\hibernate-core-5.6.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\istack-commons-runtime-3.0.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jandex-2.2.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\javax.activation-api-1.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\javax.persistence-api-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jaxb-api-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jaxb-runtime-2.3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jboss-logging-3.4.2.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\jboss-transaction-api_1.2_spec-1.1.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\mysql-connector-j-8.0.32.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\stax-ex-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\taglibs-standard-impl-1.2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\taglibs-standard-spec-1.2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-09-18 11:58:56.072
+!MESSAGE Could not delete D:\Java\Hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_MVC_CRUD_COMPLETE_APP\WEB-INF\lib\txw2-2.3.1.jar. May be locked by another process.
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-09-18 11:59:33.133
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:668)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:241)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.jst.jee.ui.internal.navigator.web.WebAppProvider.getWeb30Image(WebAppProvider.java:156)
+	at org.eclipse.jst.jee.ui.internal.navigator.web.WebAppProvider.getImage(WebAppProvider.java:108)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25LabelProvider.getImage(Web25LabelProvider.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:970)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1048)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2107)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:864)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createAddedElements(AbstractTreeViewer.java:433)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalAdd(AbstractTreeViewer.java:289)
+	at org.eclipse.jface.viewers.TreeViewer.internalAdd(TreeViewer.java:630)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:167)
+	at org.eclipse.ui.navigator.CommonViewer.add(CommonViewer.java:305)
+	at org.eclipse.jst.j2ee.navigator.internal.ClearPlaceHolderJob.runInUIThread(ClearPlaceHolderJob.java:42)
+	at org.eclipse.jst.jee.ui.internal.navigator.ClearJeePlaceHolderJob.runInUIThread(ClearJeePlaceHolderJob.java:32)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-09-18 11:59:49.259 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-18 11:59:51.526
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-09-18 11:59:56.510
+!MESSAGE Logback config file: D:\Java\Hibernate\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-09-18 12:00:23.017
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-18 12:00:23.017
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-18 12:00:23.017
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-18 12:00:40.883
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sande'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 4 0 2023-09-18 12:02:19.826
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1159)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	... 6 more

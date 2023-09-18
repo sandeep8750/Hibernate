@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;JSP_MVC_CRUD_COMPLETE_APP&apos;&#x0D;&#x0A;- Original project: &apos;JSP_MVC_CRUD_COMPLETE_APP&apos;&#x0D;&#x0A;- Original element: &apos;in.ineuron.controller.MainController.java&apos;" description="Delete element" element1="/src\/main\/java&lt;in.ineuron.controller{MainController.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1694451166301" subPackages="false" version="1.0"/>
+</session>
